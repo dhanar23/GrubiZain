@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/styles/styles.css">
+    <link rel="stylesheet" href="./static/styles/Slider_style.css">
+    <script src="./static/scripts/scripts.js" defer></script>
+    <script src="./static/scripts/slider_scripts.js" defer></script>
+    <title>Grubi Zain</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <img src="./static/img/logo.png" alt="Grubi Zain Logo" class="navbar__logo--logo">
+            </div>
+            <div class="navbar__bars">
+                <a id="bars"><i class="fas fa-bars"></i></a>
+            </div>
+            <ul class="navbar__links">
+                <li class="navbar_link--links"><a href="#home-section" class="active">Home</a></li>
+                <li class="navbar_link--links"><a href="#about-section">About</a></li>
+                <li class="navbar_link--links"><a href="#products-section">Products</a></li>
+                <li class="navbar_link--links"><a href="#our-company-section">Our Company</a></li>
+                <li class="navbar_link--links"><a href="#" id="btn">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="relative-hidebar">
+            <div class="hide__bars">
+                <ul class="hide__bars__links">
+                    <li class="navbar_link--links"><a href="#home-section" class="active">Home</a></li>
+                    <li class="navbar_link--links"><a href="#about-section">About</a></li>
+                    <li class="navbar_link--links"><a href="#products-section">Products</a></li>
+                    <li class="navbar_link--links"><a href="#our-company-section">Our Company</a></li>
+                    <li class="navbar_link--links"><a href="#" id="btn">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="continer">
+            <div class="home" id="home-section">
+                <div class="home__container">
+                    <div class="home__container--left">
+                        <h1>Manis & Renyah</h1>
+                        <h2>Kudapan Tradisional Indonesia yang Menggugah Selera</h2>
+                        <p>Camilan Manis Tradisional dari Singkong Parut yang Renyah dan Otentik Khas Indonesia</p>
+                        <button id="btn"><a href="#">Pesan Sekarang</a></button>
+                    </div>
+                    <div class="home__container--right">
+                        <img class="img-1" src="./static/img/home/home-img.png" alt="home content one">
+                        <img class="img-2" src="./static/img/home/home-img2.png" alt="home content two">
+                    </div>
+                </div>
+            </div>
+            <div class="about" id="about-section">
+                <div class="about__container">
+                    <h1 class="about__container--title">
+                        About
+                    </h1>
+                    <div class="about__container--content">
+                        <img src="./static/img/about/about-img.png" alt="about image" class="img-about-content">
+                        <p>
+                            Grubi merupakan camilan khas masyarakat Karanganyar, Surakarta dan sekitarnya yang terbuat dari ubi dan gula Jawa. Di sejumlah daerah, grubi dikenal dengan nama lain, yaitu Walangan dan Carang Mas. Ubi yang digunakan untuk bahan olahan grubi biasanya dikupas tipis tipis dan direndam dalam air garam agar ubi tidak berwarna hitam, sekaligus menambah cita rasa sedikit asin. Ubi tersebut kemudian digoreng dalam minyak panas hingga kering dan berwarna coklat keemasan. 
+                        </p>
+                        <p>
+                            Ubi yang telah digoreng kemudian dibaluri cairan gula merah yang telah dipanaskan menggunakan wajan. Gula merah yang dipanaskan harus larut dan tidak menggumpal. Gula merah tersebut kemudian dicampur dengan gula pasir secukupnya hingga campuran tersebut mendidih dan membentuk banyak gelembung udara (sering disebut dnegan mata ulo). Ubi yang telah dicampur dengan gula merah dicetak dengan cetakan bulat dan didinginkan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="products" id="products-section">
+                <div class="products__container">
+                    <h1 class="products__container--title">
+                        Products
+                    </h1>
+                    <div class="products__container--content">
+                        <div class="Products__container_content">
+                            <div class="slider-wrapper">
+                                <button id="prev-slide" class="slide-button"><i class="fas fa-chevron-left"></i></button>
+                                <div class="image-list">
+                                    <img src="./static/img/product/product_1.JPG" alt="img-1" class="image-item">
+                                    <img src="./static/img/product/product_2.JPG" alt="img-2" class="image-item">
+                                    <img src="./static/img/product/product_3.JPG" alt="img-3" class="image-item">
+                                    <img src="./static/img/product/product_4.JPG" alt="img-4" class="image-item">
+                                    <img src="./static/img/product/product_5.JPG" alt="img-5" class="image-item">
+                                    <img src="./static/img/product/product_6.JPG" alt="img-6" class="image-item">
+                                    <img src="./static/img/product/product_7.JPG" alt="img-7" class="image-item">
+                                    <img src="./static/img/product/product_8.JPG" alt="img-8" class="image-item">
+                                    <img src="./static/img/product/product_9.JPG" alt="img-9" class="image-item">
+                                </div>
+                                <button id="next-slide" class="slide-button"><i class="fas fa-chevron-right"></i></button>
+                            </div>
+                            <div class="slider-scrollbar">
+                                <div class="scrollbar-track">
+                                    <div class="scrollbar-thumb"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="our-company" id="our-company-section">
+                <div class="our-company__container">
+                    <h1 class="our-company__container--title">
+                        Our Company
+                    </h1>
+                    <div class="our-company__container--content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis obcaecati suscipit molestias est eius hic amet eum itaque rerum animi reiciendis quo laborum modi, quod sit necessitatibus officia accusamus saepe, quibusdam autem quasi placeat facere eligendi. Sit at quo tempore adipisci ad libero dolores exercitationem minus. Optio mollitia rerum inventore voluptatum necessitatibus tempore dolore alias ullam ipsa, quae assumenda magnam fugit! Autem, cum earum nisi, nobis veniam sapiente accusamus harum obcaecati facilis in odio placeat dolor ad ea! Odit, molestias! Commodi delectus obcaecati officiis modi quis. Tenetur accusamus earum architecto, inventore porro aspernatur a obcaecati quasi voluptas magni necessitatibus rerum cupiditate nam praesentium rem debitis voluptatem vitae deserunt doloremque consectetur quaerat saepe nisi ex possimus! Reprehenderit perspiciatis quasi iusto? Doloremque, dolorum nobis, facilis minus quasi omnis aspernatur adipisci deserunt impedit quos aut explicabo in cum illum? Soluta nemo voluptatem impedit quia et reiciendis aspernatur, aliquid suscipit, accusantium tenetur, distinctio eveniet nobis cumque libero iste? Velit quae laudantium sunt, sit adipisci delectus. Atque aut numquam maxime tempora incidunt. Autem, odit in vero animi molestiae voluptatum placeat omnis explicabo! Iusto sunt officiis quam veritatis amet itaque, ea deserunt ratione temporibus neque aspernatur alias, laudantium quas esse delectus libero, voluptate similique perspiciatis reprehenderit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__container">
+            <div class="footer__container__logo">
+                <img src="./static/img/logo.png" alt="footer">
+            </div>
+            <div class="footer__container__content">
+                <div class="content--left">
+                    <div class="content-item">
+                        <h1>Email</h1>
+                        <p><a href="#">kontakgroubi@gmail.com</a></p>
+                    </div>
+                    <div class="content-item">
+                        <h1>Telp</h1>
+                        <p><a href="#">(+62)888 8888 8888</a></p>
+                    </div>
+                </div>
+                <div class="content--right">
+                    <div class="content-item">
+                        <i class="fab fa-instagram"></i>
+                        <p><a href="#">kontakgroubi@gmail.com</a></p>
+                    </div>
+                    <div class="content-item">
+                        <i class="fab fa-facebook"></i>
+                        <p><a href="#">(+62)888 8888 8888</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright__bottom">
+            © 2024 Zero Inc. All rights Reserved
+        </div>
+    </footer>
+</body>
+</html>
